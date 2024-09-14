@@ -29,6 +29,12 @@
                 display: none;
             }
         }
+        /* Hide the web camera button on small screens */
+        @media (max-width: 768px) {
+        #open-webcam-btn {
+            display: none;
+        }
+    }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col md:flex-row">
